@@ -1,4 +1,9 @@
 const Autocomplete = (props) => React.createElement(MuiMaterial.Autocomplete, props);
+
+function stripDiacritics(string) {
+    return typeof string.normalize !== 'undefined' ? string.normalize('NFD').replace(/[\u0300-\u036f]/g, '') : string;
+}
+
 Autocomplete.createFilterOptions = function createFilterOptions(config = {}) {
     const {
         ignoreAccents = true,
@@ -38,4 +43,5 @@ Autocomplete.createFilterOptions = function createFilterOptions(config = {}) {
         return typeof limit === 'number' ? filteredOptions.slice(0, limit) : filteredOptions;
     };
 };
+
 module.exports = Autocomplete;
