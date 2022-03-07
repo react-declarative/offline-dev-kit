@@ -1,0 +1,28 @@
+{
+  "name": "offline-dev-kit",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Offline dev kit based on import maps and htm jsx factory. No node_modules need anymore!",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "start": "open-cli http://127.0.0.1:8080/example && http-server",
+    "build": "bash ./scripts/build.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/react-declarative/offline-dev-kit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/react-declarative/offline-dev-kit/issues"
+  },
+  "homepage": "https://github.com/react-declarative/offline-dev-kit#readme",
+  "devDependencies": {
+    "http-server": "^14.1.0",
+    "open-cli": "^7.0.1"
+  }
+}

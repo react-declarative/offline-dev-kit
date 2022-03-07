@@ -1,0 +1,24 @@
+<html>
+
+<head>
+  <script src="/dist/react.min.js"></script>
+  <script src="/dist/react-dom.min.js"></script>
+  <script type="importmap">
+    {
+      "imports": {
+        "react": "/dist/react.esm.js",
+        "react-dom": "/dist/react-dom.esm.js"
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module">
+    import { createElement } from 'react';
+    console.log(createElement);
+  </script>
+</body>
+
+</html>
