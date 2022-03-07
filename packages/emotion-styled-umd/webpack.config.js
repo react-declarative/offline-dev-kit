@@ -8,18 +8,16 @@ module.exports = {
   mode: 'production',
   target: 'web',
   output: {
-    filename: 'mui-material.min.js',
+    filename: 'emotion-styled.min.js',
     path: path.resolve(__dirname, '../../dist'),
     library: {
-      name: 'MuiMaterial',
+      name: 'EmotionStyled',
       type: 'umd'
     }
   },
   externals: {
     'react': 'React',
-    'react-dom': 'ReactDOM',
     '@emotion/react': 'EmotionReact',
-    '@emotion/styled': 'EmotionStyled',
   },
   resolve: {
     alias: {
@@ -31,7 +29,7 @@ module.exports = {
       patterns: [
         {
           from: path.resolve(__dirname, './src/index.esm.js'),
-          to: path.resolve(__dirname, '../../dist', 'mui-material.esm.js')
+          to: path.resolve(__dirname, '../../dist', 'emotion-styled.esm.js')
         },
       ],
     }),

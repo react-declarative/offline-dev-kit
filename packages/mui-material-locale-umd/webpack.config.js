@@ -18,6 +18,8 @@ module.exports = {
   externals: {
     'react': 'React',
     'react-dom': 'ReactDOM',
+    '@emotion/react': 'EmotionReact',
+    '@emotion/styled': 'EmotionStyled'
   },
   resolve: {
     alias: {

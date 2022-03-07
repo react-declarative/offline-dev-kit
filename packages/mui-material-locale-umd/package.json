@@ -1,12 +1,10 @@
 {
-  "name": "mui-material-styles-umd",
+  "name": "mui-material-locale-umd",
   "version": "1.0.0",
   "scripts": {
     "build": "webpack-cli"
   },
   "dependencies": {
-    "@emotion/react": "^11.8.1",
-    "@emotion/styled": "^11.8.1",
     "@mui/material": "^5.5.0"
   },
   "devDependencies": {

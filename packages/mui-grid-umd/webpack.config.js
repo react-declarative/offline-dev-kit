@@ -22,6 +22,8 @@ module.exports = {
     '@mui/material/locale': 'MuiMaterialLocale',
     '@mui/material/styles': 'MuiMaterialStyles',
     '@mui/material/utils': 'MuiMaterialUtils',
+    '@emotion/react': 'EmotionReact',
+    '@emotion/styled': 'EmotionStyled'
   },
   resolve: {
     alias: {

@@ -1,11 +1,11 @@
 {
-  "name": "mui-material-umd",
+  "name": "emotion-react-umd",
   "version": "1.0.0",
   "scripts": {
     "build": "webpack-cli"
   },
   "dependencies": {
-    "@mui/material": "^5.5.0"
+    "@emotion/react": "^11.8.1"
   },
   "devDependencies": {
     "webpack": "^5.70.0",

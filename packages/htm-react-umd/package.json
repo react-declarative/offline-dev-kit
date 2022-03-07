@@ -1,11 +1,11 @@
 {
-  "name": "mui-material-umd",
+  "name": "htm-react-umd",
   "version": "1.0.0",
   "scripts": {
     "build": "webpack-cli"
   },
   "dependencies": {
-    "@mui/material": "^5.5.0"
+    "htm": "^3.1.0"
   },
   "devDependencies": {
     "webpack": "^5.70.0",
