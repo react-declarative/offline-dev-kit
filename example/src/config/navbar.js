@@ -5,7 +5,7 @@ export const options = [
     },
     {
         label: 'Profiles',
-        name: 'profiles-list',
+        name: 'profiles-page',
     },
 ];
 

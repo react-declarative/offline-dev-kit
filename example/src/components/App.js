@@ -8,9 +8,18 @@ const history = createMemoryHistory();
 
 export const App = () => {
 
+    const handleNavClick = (name) => {
+        if (name === 'home-page') {
+            history.push('/');
+        } else if (name === 'profiles-page') {
+            history.push('/profiles');
+        }
+    };
+
     return htm`
         <${Scaffold} 
             title="InfoLink CRM"
+            onOptionClick=${handleNavClick}
             options=${options}
         >
             <${Switch}
