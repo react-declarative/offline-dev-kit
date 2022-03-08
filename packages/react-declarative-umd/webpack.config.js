@@ -22,6 +22,7 @@ module.exports = {
     '@mui/icons-material': 'MuiIcons',
     '@mui/material/styles': 'MuiMaterialStyles',
     '@mui/x-data-grid': 'MuiGrid',
+    '@mui/system': 'MuiSystem',
     '@mui/styles': 'MuiStyles',
   },
   resolve: {

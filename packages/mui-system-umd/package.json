@@ -1,12 +1,11 @@
 {
-  "name": "mui-icons-umd",
+  "name": "mui-system-umd",
   "version": "1.0.0",
   "scripts": {
-    "build": "webpack-cli",
-    "postinstall": "bash ./scripts/postinstall.sh"
+    "build": "webpack-cli"
   },
   "dependencies": {
-    "@mui/icons-material": "^5.5.0"
+    "@mui/system": "^5.5.0"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^10.2.4",

@@ -8,24 +8,22 @@ module.exports = {
   mode: 'production',
   target: 'web',
   output: {
-    filename: 'mui-styles.min.js',
+    filename: 'mui-system.min.js',
     path: path.resolve(__dirname, '../../dist'),
     library: {
-      name: 'MuiStyles',
+      name: 'MuiSystem',
       type: 'umd'
     }
   },
   externals: {
     'react': 'React',
+    'react-dom': 'ReactDOM',
     '@emotion/react': 'EmotionReact',
     '@emotion/styled': 'EmotionStyled',
-    '@mui/system': 'MuiSystem',
   },
   resolve: {
     alias: {
-      'react/jsx-runtime': path.resolve(__dirname, './src/jsx-runtime'),
-      '@mui/private-theming/useTheme': path.resolve(__dirname, './src/alias/useTheme'),
-      '@mui/private-theming/ThemeProvider': path.resolve(__dirname, './src/alias/ThemeProvider'),
+      'react/jsx-runtime': path.resolve(__dirname, './src/jsx-runtime')
     },
   },
   plugins: [
@@ -33,7 +31,7 @@ module.exports = {
       patterns: [
         {
           from: path.resolve(__dirname, './src/index.esm.js'),
-          to: path.resolve(__dirname, '../../dist', 'mui-styles.esm.js')
+          to: path.resolve(__dirname, '../../dist', 'mui-system.esm.js')
         },
       ],
     }),

@@ -20,6 +20,7 @@ module.exports = {
     'react-dom': 'ReactDOM',
     '@emotion/react': 'EmotionReact',
     '@emotion/styled': 'EmotionStyled',
+    '@mui/system': 'MuiSystem',
   },
   resolve: {
     alias: {

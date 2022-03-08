@@ -2,7 +2,8 @@
   "name": "mui-material-utils-umd",
   "version": "1.0.0",
   "scripts": {
-    "build": "webpack-cli"
+    "build": "webpack-cli",
+    "postinstall": "bash ./scripts/postinstall.sh"
   },
   "dependencies": {
     "@mui/material": "^5.5.0"
