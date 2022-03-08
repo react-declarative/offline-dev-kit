@@ -1,7 +1,9 @@
+import HomePage from '../pages/HomePage.js';
+
 export const routes = [
     {
         path: '/',
-        component: () => htm`<p>home</p>`,
+        component: HomePage,
     },
 ];
 
