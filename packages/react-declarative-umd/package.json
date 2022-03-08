@@ -2,7 +2,8 @@
   "name": "mui-grid-umd",
   "version": "1.0.0",
   "scripts": {
-    "build": "webpack-cli"
+    "build": "webpack-cli",
+    "postinstall": "bash ./scripts/postinstall.sh"
   },
   "dependencies": {
     "react-declarative": "^1.7.18"
