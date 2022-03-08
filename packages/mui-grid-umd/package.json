@@ -2,7 +2,8 @@
   "name": "mui-grid-umd",
   "version": "1.0.0",
   "scripts": {
-    "build": "webpack-cli"
+    "build": "webpack-cli",
+    "postinstall": "bash ./scripts/postinstall.sh"
   },
   "dependencies": {
     "@mui/x-data-grid": "^5.6.0"
