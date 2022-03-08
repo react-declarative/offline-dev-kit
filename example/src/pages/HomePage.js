@@ -54,5 +54,7 @@ const fields = [
         ],
     },
 ];
-export const HomePage = () => (React.createElement(One, { fields: fields }));
+
+export const HomePage = () => htm`<${One} fields=${fields} />`;
+
 export default HomePage;
