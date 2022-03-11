@@ -1,4 +1,4 @@
-import { List, SelectionMode, FieldType, ColumnType, ActionType } from 'react-declarative';
+import { List, DisplayMode, FieldType, ColumnType, ActionType } from 'react-declarative';
 
 import { Add, Delete } from '@mui/icons-material';
 
@@ -87,7 +87,7 @@ export const ListPage = () => {
 
     const handler = mock;
 
-    const heightRequest = () => window.innerHeight - 180;
+    const heightRequest = () => window.innerHeight - 80;
 
     const handleColumnMenuClick = (action) => {
         alert(action);
@@ -109,13 +109,13 @@ export const ListPage = () => {
         <${List}
             title="List Component"
             filterLabel="Filters"
+            displayMode=${DisplayMode.Mobile}
             heightRequest=${heightRequest}
             rowActions=${rowActions}
             actions=${actions}
             filters=${filters}
             columns=${columns}
             handler=${handler}
-            selectionMode=${SelectionMode.Single}
             onColumnMenuAction=${handleColumnMenuClick}
             onRowAction=${handleRowActionsClick}
             onRowClick=${handleClick}
