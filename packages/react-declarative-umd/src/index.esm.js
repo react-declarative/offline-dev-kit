@@ -28,3 +28,6 @@ export const useListTyped = Declarative.useListTyped;
 export const useOne = Declarative.useOne; 
 export const useOneTyped = Declarative.useOneTyped; 
 export const useTime = Declarative.useTime;
+export const serviceManager = Declarative.serviceManager;
+export const provide = Declarative.provide;
+export const inject = Declarative.inject;
