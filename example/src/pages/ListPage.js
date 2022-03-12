@@ -109,7 +109,6 @@ export const ListPage = () => {
         <${List}
             title="List Component"
             filterLabel="Filters"
-            displayMode=${DisplayMode.Mobile}
             heightRequest=${heightRequest}
             rowActions=${rowActions}
             actions=${actions}
