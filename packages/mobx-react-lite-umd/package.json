@@ -5,6 +5,7 @@
     "build": "webpack-cli"
   },
   "dependencies": {
+    "mobx": "^6.4.2",
     "mobx-react-lite": "^3.3.0"
   },
   "devDependencies": {
