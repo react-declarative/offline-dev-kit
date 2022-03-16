@@ -6,7 +6,7 @@
     "postinstall": "bash ./scripts/postinstall.sh"
   },
   "dependencies": {
-    "react-declarative": "^1.8.5"
+    "react-declarative": "^1.8.6"
   },
   "devDependencies": {
     "webpack": "^5.70.0",

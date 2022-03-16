@@ -4,11 +4,11 @@ import ListPage from '../pages/ListPage.js';
 export const routes = [
     {
         path: '/',
-        component: HomePage,
+        element: () => htm`<${HomePage} />`,
     },
     {
         path: '/profiles',
-        component: ListPage,
+        element: () => htm`<${ListPage} />`,
     },
 ];
 
