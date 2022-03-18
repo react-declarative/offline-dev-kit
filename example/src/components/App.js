@@ -1,8 +1,8 @@
 import { Scaffold, Switch } from 'react-declarative';
 import { createMemoryHistory } from 'history';
 
-import options from '../../config/navbar.js';
-import routes from '../../config/routes.js';
+import options from '../config/navbar.js';
+import routes from '../config/routes.js';
 
 const history = createMemoryHistory();
 
