@@ -1,12 +1,12 @@
 {
-  "name": "mui-grid-umd",
+  "name": "react-declarative-umd",
   "version": "1.0.0",
   "scripts": {
     "build": "webpack-cli",
     "postinstall": "bash ./scripts/postinstall.sh"
   },
   "dependencies": {
-    "react-declarative": "^1.8.9"
+    "react-declarative": "^1.8.28"
   },
   "devDependencies": {
     "webpack": "^5.70.0",
