@@ -66,10 +66,7 @@ const actions = [
                 action: 'update-now',
             },
             {
-                action: 'auto-reload',
-            },
-            {
-                action: 'mobile-view',
+                action: 'resort-action',
             },
         ],
     }

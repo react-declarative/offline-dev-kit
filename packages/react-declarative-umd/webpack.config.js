@@ -80,6 +80,7 @@ module.exports = {
       '@mui/material/TableBody': path.resolve(__dirname, './src/alias/TableBody'),
       '@mui/material/Table': path.resolve(__dirname, './src/alias/Table'),
       '@mui/material/Stack': path.resolve(__dirname, './src/alias/Stack'),
+      '@mui/material/ListItemButton': path.resolve(__dirname, './src/alias/ListItemButton'),
       '@mui/icons-material/KeyboardArrowRight': path.resolve(__dirname, './src/alias/KeyboardArrowRightIcon'),
       '@mui/icons-material/KeyboardArrowLeft': path.resolve(__dirname, './src/alias/KeyboardArrowLeftIcon'),
       '@mui/icons-material/FiberManualRecord': path.resolve(__dirname, './src/alias/FiberManualRecordIcon'),
@@ -95,6 +96,9 @@ module.exports = {
       '@mui/icons-material/MoreVert': path.resolve(__dirname, './src/alias/MoreVertIcon'),
       '@mui/icons-material/CheckBoxOutlineBlank': path.resolve(__dirname, './src/alias/CheckBoxOutlineBlankIcon'),
       '@mui/icons-material/NotInterested': path.resolve(__dirname, './src/alias/NotInterestedIcon'),
+      '@mui/icons-material/Sort': path.resolve(__dirname, './src/alias/SortIcon'),
+      '@mui/icons-material/ArrowDownward': path.resolve(__dirname, './src/alias/ArrowDownwardIcon'),
+      '@mui/icons-material/ArrowUpward': path.resolve(__dirname, './src/alias/ArrowUpwardIcon'),
     },
   },
   plugins: [
