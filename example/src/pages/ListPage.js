@@ -1,4 +1,4 @@
-import { List, DisplayMode, FieldType, ColumnType, ActionType } from 'react-declarative';
+import { List, FieldType, ColumnType, ActionType } from 'react-declarative';
 
 import { Add, Delete } from '@mui/icons-material';
 

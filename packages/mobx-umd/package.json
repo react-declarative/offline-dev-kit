@@ -5,12 +5,12 @@
     "build": "webpack-cli"
   },
   "dependencies": {
-    "mobx": "^6.4.2"
+    "mobx": "6.4.2"
   },
   "devDependencies": {
-    "copy-webpack-plugin": "^10.2.4",
-    "terser-webpack-plugin": "^5.3.1",
-    "webpack": "^5.70.0",
-    "webpack-cli": "^4.9.2"
+    "copy-webpack-plugin": "10.2.4",
+    "terser-webpack-plugin": "5.3.1",
+    "webpack": "5.70.0",
+    "webpack-cli": "4.9.2"
   }
 }
