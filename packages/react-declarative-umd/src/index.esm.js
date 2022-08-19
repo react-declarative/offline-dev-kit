@@ -43,3 +43,5 @@ export const useOneTyped = Declarative.useOneTyped;
 export const usePreventLeave = Declarative.usePreventLeave;
 export const useStaticPaginator = Declarative.useStaticPaginator;
 export const useTime = Declarative.useTime;
+export const typo = Declarative.typo;
+export const datetime = Declarative.datetime;
