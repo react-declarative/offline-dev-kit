@@ -2,6 +2,11 @@
 
 > Offline dev kit based on [import maps](https://github.com/WICG/import-maps) and [htm jsx factory](https://github.com/developit/htm). No node_modules need anymore! Full [material-ui](https://github.com/mui/material-ui) lib without bundlers!
 
+## Contribute
+
+> [!IMPORTANT]
+> There is made by using [react-declarative](https://github.com/react-declarative/react-declarative) to solve your problems. **⭐Star** and **💻Fork** It on github will be appreciated
+
 ## Usage
 
 Run in command line
